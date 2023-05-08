@@ -115,6 +115,7 @@ main{
     img {
       @media all and (max-width: 400px) {
         width: 100%;
+        height: auto;
       }
     }
   }
@@ -222,6 +223,7 @@ main{
 
   &__img {
     width: 100%;
+    height: auto;
     margin-top: 50px;
     border-radius: 20px;
   }
@@ -306,6 +308,7 @@ main{
     img{
       max-width: 515px;
       width: 100%;
+      height: auto;
     }
     p{
       display: flex;
