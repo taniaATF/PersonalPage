@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Preview() {
   return(
     <section className="preview">
@@ -13,7 +13,7 @@ export default function Preview() {
           <Link href={'/feedback'} className='preview__content-btn'>Обратная связь</Link>
         </div>
         <div className="preview__img">
-          <img src="/photo.jpg" alt="Фото" />
+          <Image width={300} height={405} src="/photo.jpg" alt="Фото" />
         </div>
       </div>
     </section>
