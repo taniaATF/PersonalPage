@@ -2,8 +2,14 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <>
-      <h1>Welcome to Feed back page</h1>
-    </>
+    <section className="feedback">
+      <div className="feedback__wrapper">
+        <h1>Сайт техникума <a href="http://протехникум.рф" rel="nofollow noreferrer">протехникум.рф</a></h1>
+        <p>Для связи:</p>
+        <span> email <a href="mailto:Taniantf@yandex.ru">Taniantf@yandex.ru</a></span>
+        <span> tel <a href="tel:+7930-816-8838">+7930-816-8838</a></span>
+
+      </div>
+    </section>
   )
 }
