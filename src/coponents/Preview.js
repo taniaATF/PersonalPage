@@ -10,7 +10,7 @@ export default function Preview() {
           <p className="preview__content-text">
                 Здесь вы найдете информацию обо мне, материалы для учеников и новости для родителей
           </p>
-          <Link href={'/about-me'} className='preview__content-btn'>Обратная связь</Link>
+          <Link href={'/feedback'} className='preview__content-btn'>Обратная связь</Link>
         </div>
         <div className="preview__img">
           <img src="/photo.jpg" alt="Фото" />

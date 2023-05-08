@@ -12,6 +12,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const Year = new Date().getFullYear()
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -19,6 +20,9 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
+        <footer>
+          <span>© {Year} Абдуллазаде Т.Ф. Все права сохранены за владельцем, свободно к распространению/копированию</span>
+        </footer>
       </body>
     </html>
   )
