@@ -9,16 +9,16 @@ export default function About(){
             информационных технологий"</p>
         <ul className="about__lists">
           <li className="about__lists-item">
-            <img src="" alt=""/>
+            <img src="/education.svg" alt="Образование"/>
             <h3>Образование</h3>
             <p>Высшее</p>
           </li>
           <li className="about__lists-item">
-            <img src="" alt=""/>
+            <img src="/work.svg" alt="Специальность"/>
             <h3>Специальность</h3>
             <p>Высшее</p>
           </li><li className="about__lists-item">
-            <img src="" alt=""/>
+            <img src="/check.svg" alt="Квалификация"/>
             <h3>Квалификация</h3>
             <p>ОУП.10 ИНФОРМАТИКА <br/>
                 ЕН.02 ИНФОРМАТИКА</p>
