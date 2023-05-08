@@ -257,12 +257,16 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+    @media all and (max-width: 1100px) {
+      grid-template-columns: 1fr 1fr;
+    }
     @media all and (max-width: 768px) {
       grid-template-columns: 1fr;
     }
     li{
       img{
         width: 100%;
+        height: auto;
       }
     }
   }
@@ -272,7 +276,6 @@ main{
     display: flex;
     max-width: 1300px;
     flex-direction: column;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
@@ -286,6 +289,8 @@ main{
     }
     img{
       max-width: 400px;
+      width: 100%;
+      height: auto;
     }
   }
 }
