@@ -17,12 +17,11 @@ export default function About(){
           <li className="about__lists-item">
             <Image width={30} height={30} src="/work.svg" alt="Специальность"/>
             <h3>Специальность</h3>
-            <p>Высшее</p>
+            <p>Математика и физика</p>
           </li><li className="about__lists-item">
             <Image width={30} height={30} src="/check.svg" alt="Квалификация"/>
             <h3>Квалификация</h3>
-            <p>ОУП.10 ИНФОРМАТИКА <br/>
-                ЕН.02 ИНФОРМАТИКА</p>
+            <p>Учитель математики и физики</p>
           </li>
         </ul>
       </div>

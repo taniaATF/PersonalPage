@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section className="students">
       <div className="students__wrapper">
-        <h1>Здесь можно ознакомиться с Благодарственными письмами, успехами студентов и найти некоторые&nbsp;фото</h1>
+        <h1>Здесь можно ознакомиться с Благодарственными письмами, успехами студентов и найти некоторые&nbsp;фотографии</h1>
         <h2>МОИ БЛАГОДАРСТВЕННЫЕ ПИСЬМА И СЕРТИФИКАТЫ</h2>
         <a href="https://disk.yandex.ru/d/L5xONkdY8vx9NA" rel='nofollow'>https://disk.yandex.ru/d/L5xONkdY8vx9NA</a>
         <h2>СЕРТИФИКАТЫ СТУДЕНТОВ 2019-2020</h2>
