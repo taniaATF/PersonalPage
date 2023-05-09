@@ -346,6 +346,49 @@ main {
   }
 }
 
+.achievements {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1300px;
+
+    h1 {
+      max-width: 780px;
+      font-size: 30px;
+      text-transform: uppercase;
+
+      @media all and (max-width: 768px) {
+        font-size: 24px;
+      }
+      @media all and (max-width: 400px) {
+        font-size: 20px;
+      }
+    }
+
+    h2 {
+      text-transform: uppercase;
+      @media all and (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $lightColor;
+      padding: 20px 0;
+      transition: all .7s ease;
+
+      @media all and (max-width: 768px) {
+        font-size: 16px;
+        word-break: break-all;
+      }
+    }
+  }
+}
+
 .students {
   &__wrapper {
     display: flex;
@@ -363,19 +406,19 @@ main {
       @media all and (max-width: 768px) {
         font-size: 24px;
       }
-    }
-
-    h2 {
-      text-transform: uppercase;
-      @media all and (max-width: 768px) {
-        font-size: 18px;
+      @media all and (max-width: 400px) {
+        font-size: 20px;
       }
     }
 
     a {
-      @media all and (max-width: 768px) {
-        font-size: 16px;
-        word-break: break-all;
+      text-decoration: none;
+      color: $lightColor;
+      padding: 20px 0;
+      transition: all .7s ease;
+
+      &:hover {
+        opacity: 0.7;
       }
     }
   }
