@@ -22,17 +22,60 @@ main {
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
+
+    &_mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: inherit;
+    align-items: center;
+    cursor: pointer;
+    place-self: self-end;
+
+
+    &-burger {
+      display: none;
+      @media all and (max-width: 900px) {
+        display: flex;
+      }
+      &_disable{
+        display: none;
+
+      }
+    }
+
+    &-close {
+      display: none;
+      &_active{
+        display: flex;
+      }
+    }
   }
 
   &__lists {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-
     gap: 20px;
-
     margin: 0;
     padding: 0;
+
+    @media all and (max-width: 900px) {
+      display: none;
+    }
+
+    &_mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-column: 1/3;
+      padding-top: 30px;
+    }
   }
 
   &__lists-element {
@@ -343,17 +386,21 @@ main {
     margin: 0 auto;
     padding: 40px 20px;
     max-width: 1300px;
-    h1{
+
+    h1 {
 
     }
-    p{
+
+    p {
       font-size: 20px;
     }
-    span{
+
+    span {
       font-size: 16px;
       padding: 10px 0;
 
     }
+
     a {
       text-decoration: none;
       color: $lightColor;
@@ -443,6 +490,43 @@ main {
     }
   }
 }
+
+.documents {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1300px;
+
+    h1 {
+
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 16px;
+      padding: 10px 0;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: $lightColor;
+      transition: all .7s ease;
+      padding: 10px 0;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
 
 footer {
   display: flex;
