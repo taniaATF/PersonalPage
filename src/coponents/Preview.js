@@ -13,7 +13,7 @@ export default function Preview() {
           <Link href={'/feedback'} className='preview__content-btn'>Обратная связь</Link>
         </div>
         <div className="preview__img">
-          <Image width={300} height={405} src="/photo.jpg" alt="Фото" />
+          <Image width={300} height={405} priority={true} src="/photo.jpg" alt="Фото" />
         </div>
       </div>
     </section>

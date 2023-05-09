@@ -8,22 +8,22 @@ export default function Awards() {
         <h2 className="awards__title">Достижения</h2>
         <ul className="awards__lists">
           <li>
-            <Image width={426} height={300} src="/sert/0.jpg" alt=""/>
+            <Image width={426} height={300} src="/sert/diploma.jpg" alt=""/>
           </li>
           <li>
-            <Image width={426} height={300} src="/sert/1.jpg" alt=""/>
+            <Image width={426} height={300} src="/sert/certificate_1.jpg" alt=""/>
           </li>
           <li>
-            <Image width={426} height={300}  src="/sert/2.jpg" alt=""/>
+            <Image width={426} height={300}  src="/sert/certificate_2.jpg" alt=""/>
           </li>
           <li>
-            <Image width={426} height={611} src="/sert/3.jpg" alt=""/>
+            <Image width={426} height={611} src="/sert/certificate_3.jpg" alt=""/>
           </li>
           <li>
-            <Image width={426} height={300} src="/sert/5.jpg" alt=""/>
+            <Image width={426} height={300} src="/sert/certificate_5.jpg" alt=""/>
           </li>
           <li>
-            <Image width={426} height={611} src="/sert/4.jpg" alt=""/>
+            <Image width={426} height={611} src="/sert/certificate_4.jpg" alt=""/>
           </li>
         </ul>
       </div>

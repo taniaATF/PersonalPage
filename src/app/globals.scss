@@ -3,14 +3,16 @@ $whiteColor: #fff;
 $blackColor: #000000;
 $lightColor: #213f98;
 
-body{
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-main{
+
+main {
   flex-grow: 1;
 }
+
 .header {
   background: $primaryColor;
 
@@ -266,16 +268,18 @@ main{
     @media all and (max-width: 768px) {
       grid-template-columns: 1fr;
     }
-    li{
-      img{
+
+    li {
+      img {
         width: 100%;
         height: auto;
       }
     }
   }
 }
-.work{
-  &__wrapper{
+
+.work {
+  &__wrapper {
     display: flex;
     max-width: 1300px;
     flex-direction: column;
@@ -285,12 +289,14 @@ main{
     margin: 40px auto;
     padding: 20px;
     text-align: center;
-    h2{
+
+    h2 {
       font-size: 28px;
       font-weight: 600;
       margin: 0 0 20px;
     }
-    img{
+
+    img {
       max-width: 400px;
       width: 100%;
       height: auto;
@@ -298,20 +304,22 @@ main{
   }
 }
 
-.aboutMe{
-  &__wrapper{
+.aboutMe {
+  &__wrapper {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin: 0 auto;
     padding: 40px 20px;
     max-width: 1300px;
-    img{
+
+    img {
       max-width: 515px;
       width: 100%;
       height: auto;
     }
-    p{
+
+    p {
       display: flex;
       align-items: self-start;
       font-size: 18px;
@@ -319,13 +327,15 @@ main{
       @media all and (max-width: 768px) {
         flex-wrap: wrap;
       }
-      img{
+
+      img {
         width: 20px;
       }
     }
   }
 }
-.feedback{
+
+.feedback {
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -335,12 +345,46 @@ main{
     max-width: 1300px;
   }
 }
-footer{
+
+.students {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1300px;
+
+    h1 {
+      max-width: 780px;
+      font-size: 30px;
+      @media all and (max-width: 768px) {
+        font-size: 24px;
+      }
+    }
+
+    h2 {
+      @media all and (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    a {
+      @media all and (max-width: 768px) {
+        font-size: 16px;
+        word-break: break-all;
+      }
+    }
+  }
+}
+
+footer {
   display: flex;
   justify-content: center;
   padding: 40px 20px;
   background: $primaryColor;
-  span{
+
+  span {
     text-align: center;
     opacity: 0.9;
   }

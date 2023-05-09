@@ -13,14 +13,10 @@ export default function HeaderComponents() {
                             Обо мне
             </Link>
           </li>
+
           <li className="header__lists-element">
-            <Link href={'/achievements'}>
-                            Достижения
-            </Link>
-          </li>
-          <li className="header__lists-element">
-            <Link href={'/students'}>
-                            Ученикам
+            <Link href={'/achievements-students'}>
+                            Достижения учеников
             </Link>
           </li>
           <li className="header__lists-element">
