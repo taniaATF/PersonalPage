@@ -44,7 +44,8 @@ main {
       @media all and (max-width: 900px) {
         display: flex;
       }
-      &_disable{
+
+      &_disable {
         display: none;
 
       }
@@ -52,7 +53,8 @@ main {
 
     &-close {
       display: none;
-      &_active{
+
+      &_active {
         display: flex;
       }
     }
@@ -388,7 +390,22 @@ main {
     max-width: 1300px;
 
     h1 {
+      @media all and (max-width: 400px) {
+        font-size: 24px;
+      }
+    }
 
+    h2 {
+      @media all and (max-width: 400px) {
+        font-size: 20px;
+      }
+    }
+
+    img {
+      @media all and (max-width: 400px) {
+        width: 100%;
+        height: auto;
+      }
     }
 
     p {
@@ -513,6 +530,28 @@ main {
       padding: 10px 0;
 
     }
+
+    a {
+      text-decoration: none;
+      color: $lightColor;
+      transition: all .7s ease;
+      padding: 10px 0;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.news {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1300px;
 
     a {
       text-decoration: none;
